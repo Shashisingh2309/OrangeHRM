@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Orange HRM Application Test Automation Test suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Orange HRM Automation Test Cases(failed)">
+    <classes>
+      <class name="com.orangeHRM.testcases.LoginPageTest">
+        <methods>
+          <include name="loginPageTitleTest"/>
+          <include name="logoTest"/>
+          <include name="forgotPasswordTest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.orangeHRM.testcases.LoginPageTest -->
+      <class name="com.orangeHRM.testcases.PIMPageTest">
+        <methods>
+          <include name="verifyPIMPageURL"/>
+          <include name="addEmployee"/>
+          <include name="tearDown"/>
+          <include name="verifyaddEmployeeLeable"/>
+          <include name="verifyAddButton"/>
+          <include name="verfiyPIMPageTitle"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.orangeHRM.testcases.PIMPageTest -->
+    </classes>
+  </test> <!-- Orange HRM Automation Test Cases(failed) -->
+</suite> <!-- Failed suite [Orange HRM Application Test Automation Test suite] -->
