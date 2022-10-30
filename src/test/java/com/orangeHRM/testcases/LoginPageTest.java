@@ -10,6 +10,8 @@ import com.orangeHRM.pages.LoginPage;
 import com.orangeHRM.pages.PIMPage;
 import com.orangeHRM.pages.ResetPasswordPage;
 
+
+//Testing
 public class LoginPageTest extends TestBase {
 
     LoginPage loginpage;
